@@ -10,7 +10,7 @@
   <body>
     <header>
       <div class="Logo"></div>
-      <img src="" alt="" />
+      <img id="log" src="img/Logo.jpeg" alt="Logo da pagina" />
       <nav class="nav">
         <ul class="menu">
           <li><a id="red" href="index.html">Home</a></li>
@@ -24,7 +24,7 @@
       <div class="MainContainer">
 
         <div class="Parallax">
-         <img id="bannerimg" src="img/banner.jpg" alt="Banner site">
+         <!-- <img id="bannerimg" src="img/banner.jpg" alt="Banner site"> -->
         </div>
       
         <div class="Content">
@@ -79,26 +79,35 @@
             <input type="button" value="Leia Mais" />
           </div>
     </section>
-    <footer class="footer">
-      <div class="aluno">
+    <footer>
+      <div class="alunos">
+      <div class="aluno" id="everton">
         <h1>Everton</h1>
-        <h2>Responsável Pelo</h2>
-        <img src="" alt="Linkedin" />
-        <img src="" alt="GitHub" />
+        <div class="resp"><span>Responsável pelo desenvolvimento de</span></div>
+        <div class="linkhub">
+        <a href="https://www.linkedin.com/in/everton-alves-b5b664210/"><img id="icon" src="img/in.png" alt="Linkedin" /></a>
+        <a href="https://github.com/Evertunes"><img id="icon" src="img/hub.png" alt="GitHub" /></a>
+      </div>
       </div>
       <div class="aluno">
         <h1>Bruno</h1>
-        <h2>Responsável Pelo</h2>
-        <img src="" alt="Linkedin" />
-        <img src="" alt="GitHub" />
+        <span>Responsável pelo desenvolvimento de</span>
+       <div class="linkhub">
+        <a href=""><img id="icon" src="img/in.png" alt="Linkedin" /></a>
+        <a href=""><img id="icon" src="img/hub.png" alt="GitHub" /></a>
       </div>
-      <div class="aluno">
+      </div>
+      <div class="aluno" id="tiago">
         <h1>Tiago</h1>
-        <h2>Responsável Pelo</h2>
-        <img src="" alt="Linkedin" />
-        <img src="" alt="GitHub" />
+        <div class="resp"><span>Responsável pelo desenvolvimento de</span></div>
+       <div class="linkhub">
+         <a href=""><img id="icon" src="img/in.png" alt="Linkedin" /></a>
+         <a href=""><img id="icon" src="img/hub.png" alt="GitHub" /></a>
+      </div> 
       </div>
-      <h3>Checkpoint 3 desenvolvido em 2021</h3>
+    </div>
+    <p>Checkpoint 3 desenvolvido em 2021</p>
     </footer>
+    
   </body>
 </html>
