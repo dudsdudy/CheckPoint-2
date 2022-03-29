@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    --cor-verm: red;
+    --cor-button: #33BB69;
+    --cor-footer:#171717;
+    --cor-menu:#626262;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  a{
+      text-decoration: none;
+  }
+
+  ul{
+      display: flex;
+      gap: 30px;
+  }
+
+  ul li{
+      list-style: none;
+  }
+  header{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+        gap: 30%;
+        align-items: center;
+        height: 10vh;      
+    }
+
+
+    .banner{ 
+        width: 100% ;
+        display: block;
+        justify-content: center;
+        align-items: center; 
+    } 
+
+
+    .botaoprincipal{            
+width: 322px;
+height: 71px;
+left: 80vh;
+top: 45vh;
+color:white;
+font-size: 1.5rem;
+
+background: rgba(51, 187, 105, 0.05);
+border: 1px solid var(--cor-button);
+box-sizing: border-box;
+border-radius: 12px;
+    }
+
+    .descricao{
+        margin-bottom: 3px;
+        text-align: center;
+        color: white;
+    }
+
+
+    .MainContainer {
+        perspective: 1px;
+        transform-style: preserve-3d;
+        height: 90vh;
+        width: 100%;
+      }
+      
+      .Parallax {
+        display: flex;
+        flex: 1 0 auto;
+        position: relative;
+        width: 100vh;
+        height: 90vh;
+        transform: translateZ(-1px) scale(2);
+        z-index: -1;
+      }
+      
+      .Content {
+        display: flex;
+        position: relative;
+        z-index: 1;
+        justify-content: center;
+        top:-50vh;
+      }
