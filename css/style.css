@@ -78,10 +78,10 @@ header {
 }
 
 .linkbut a .botaoprincipal:hover {
-  box-shadow: 5px 5px 50px 1px #000000;
+  box-shadow: 5px 5px 50px 1px coral;
   cursor: pointer;
   background-position: right center; /* change the direction of the change here */
-  color: rgb(0, 0, 0);
+  color: coral;
   text-decoration: none;
 }
 
