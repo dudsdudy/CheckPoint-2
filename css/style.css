@@ -71,10 +71,10 @@ header {
   font-size: 1.5rem;
 
   background: rgba(51, 187, 105, 0.05);
-  border: 2px solid var(--cor-button);
+  border: 2px solid white;
   box-sizing: border-box;
   border-radius: 12px;
-  box-shadow: 5px 5px 50px 1px #33bb69;
+  box-shadow: 5px 5px 50px 1px red;
 }
 
 .linkbut a .botaoprincipal:hover {
