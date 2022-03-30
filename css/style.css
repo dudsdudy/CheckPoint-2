@@ -43,6 +43,7 @@ ul li {
   color: red;
 }
 header {
+  background-color: white;
   width: 100%;
   display: flex;
   flex-direction: row;

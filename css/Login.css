@@ -8,6 +8,22 @@ body {
 
 }
 
+.imagelogin{
+    width: 100%;
+    display: flex;
+}
+
+#loginimg{
+    color: white;
+    font-size: 2rem;
+}
+
+#logs{
+    box-shadow: 3px 3px 30px 3px rgb(255, 255, 255);
+    width: 70%;
+    border-radius: 50%;
+}
+
 #login {
 
     display: flex;
@@ -52,7 +68,7 @@ body {
 
     height: 1px;
 
-    background-color: #fff;
+    /* background-color: #fff; */
 
     display: block;
 
