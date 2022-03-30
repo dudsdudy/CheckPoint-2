@@ -10,6 +10,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+body{
+  width:100%;
+}
+
 a {
   text-decoration: none;
 }
@@ -229,15 +233,41 @@ p {
 }
 
 @media (max-width: 420px) {
-  header {
-    flex-direction: row;
-    flex-wrap: wrap;
+
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
-    height: 50vh;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:30px;
+    width: 100%;
+    height: 50%;
   }
 
   .Logo {
+    display:flex;
+    flex-direction: column;
     width: 100%;
+  }
+
+  #log{
+    margin-left: 45%;
+  }
+
+  .nav{
+    margin-left: -20%;
+  }
+
+  .menu{
+    border-top: 1px solid #626262;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 0.8rem;
   }
 
   .banner {
@@ -282,5 +312,28 @@ p {
     z-index: 1;
     justify-content: center;
     top: -50vh;
+  }
+
+  .alunos{
+    margin-left: -20%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 0.5rem;
+  }
+
+  #bruno{
+    margin-right: 50%;
+  }
+
+  .aluno{
+    text-align:left;
+    align-items: flex-start;
+  }
+
+  #tiago{
+    align-items: flex-start;
+    text-align: left;
   }
 }
