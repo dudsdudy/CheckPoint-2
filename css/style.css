@@ -196,58 +196,39 @@ h1 {
 
 
 #img1{
+  background-image: url('../img/card1.jpeg');
   width: 25vw;
   height: 30vh;
-  top: 130%;
-  left: 10.1%;
-  position: absolute;
-  z-index: -1;
 }
 
 #img2{
+  background-image: url('../img/card2.jpeg');
   width: 25vw;
   height: 30vh;
-  top: 130%;
-  left: 37.4%;
-  position: absolute;
-  z-index: -1;
 }
 
 #img3{
+  background-image: url('../img/card3.jpeg');
   width: 25vw;
   height: 30vh;
-  top: 130%;
-  left: 64.6%;
-  position: absolute;
-  z-index: -1;
 }
 
 #img4{
+  background-image: url('../img/card4.jpeg');
   width: 25vw;
   height: 30vh;
-  top: 218%;
-  left: 10.1%;
-  position: absolute;
-  z-index: -1;
 }
 
 #img5{
+  background-image: url('../img/card5.jpeg');
   width: 25vw;
   height: 30vh;
-  top: 218%;
-  left:37.4%;
-  ;
-  position: absolute;
-  z-index: -1;
 }
 
 #img6{
+  background-image: url('../img/card6.jpeg');
   width: 25vw;
   height: 30vh;
-  top: 218%;
-  left: 64.6%;
-  position: absolute;
-  z-index: -1;
 }
 
 .Cards {
@@ -367,6 +348,23 @@ p {
     height: 50%;
   }*/
 
+.Titulo__container{
+  margin-top: 15%;
+}
+
+
+ .container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+ }
+
+ .Cards{
+   width: 100%;
+ }
+
+
   .Logo {
     display: flex;
     flex-direction: column;
@@ -427,12 +425,13 @@ p {
   .Content {
     display: flex;
     position: relative;
-    z-index: 1;
     justify-content: center;
-    top: -50vh;
+    align-self: center;
+    margin-top: -20%;
   }
 
   footer {
+    margin-top: 50%;
     align-self: center;
     width: 100vw;
   }
