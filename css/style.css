@@ -10,20 +10,20 @@
   font-family: "Roboto", sans-serif;
 }
 
-#home{
-  color:red;
+#home {
+  color: red;
 }
 
-.imglogo{
+.imglogo {
   border-radius: 50%;
   width: 4%;
 }
 
 body {
- display:flex;
- flex-direction: column;
- justify-content: center;
- align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .logobanner {
@@ -103,9 +103,9 @@ header {
 }
 
 .banner {
-  height: 90vh;
+  height: ;
   width: 100%;
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -137,10 +137,10 @@ header {
   text-decoration: none;
 }
 
-.fundo input:hover{
+.fundo input:hover {
   cursor: pointer;
   transform: scale(1.1);
-  color:#ffb889;
+  color: #ffb889;
 }
 
 .butindex {
@@ -155,7 +155,7 @@ header {
 .fundo {
   display: flex;
   justify-content: center;
-  align-items:flex-end;
+  align-items: flex-end;
   border-radius: 15px;
   background-color: #d3d0d0;
   width: 25vw;
@@ -193,61 +193,70 @@ h1 {
   width: 100%;
 }
 
-
-
-#img1{
-  background-image: url('../img/card1.jpeg');
+#img1 {
+  background-image: url("../img/card1.jpeg");
   width: 25vw;
-  /* height: 30vh; */
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
-#img2{
-  background-image: url('../img/card2.jpeg');
+#img2 {
+  background-image: url("../img/card2.jpeg");
   width: 25vw;
-  /* height: 30vh; */
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
-#img3{
-  background-image: url('../img/card3.jpeg');
+#img3 {
+  background-image: url("../img/card3.jpg");
   width: 25vw;
-  /* height: 30vh; */
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
-#img4{
-  background-image: url('../img/card4.jpeg');
+#img4 {
+  background-image: url("../img/card4.jpeg");
   width: 25vw;
-  /* height: 30vh; */
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
-#img5{
-  background-image: url('../img/card5.jpeg');
+#img5 {
+  background-image: url("../img/card5.jpeg");
   width: 25vw;
-  /* height: 30vh; */
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
-#img6{
-  background-image: url('../img/card6.jpeg');
+#img6 {
+  background-image: url("../img/card6.jpeg");
   width: 25vw;
-  /* height: 30vh; */
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
-
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .Cards {
@@ -360,7 +369,7 @@ p {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-  }/*
+  } /*
   header {
     display: flex;
     flex-direction: column;
@@ -370,26 +379,59 @@ p {
     height: 50%;
   }*/
 
-.Titulo__container{
-  margin-top: 15%;
+  .Titulo__container {
+    margin-top: 15%;
+  }
+
+  #img1 {
+    width: 94.2vw;
+  }
+
+  #img2 {
+    width: 94.2vw;
+  }
+
+  #img3 {
+    width: 94.2vw;
+  }
+
+  #img4 {
+    width: 94.2vw;
+  }
+
+  #img5 {
+    width: 94.2vw;
+  }
+
+  #img6 {
+    width: 94.2vw;
+  }
+
+  .fundo {
+    width: 94.2vw;
+    margin-top: 63%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .Cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 385px;
+  }
+
+.butindex{
+  width: 60vw;
+  height: 10vh;
 }
-
-
- .container{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   
- }
-
- .Cards{
-  display: flex;
-  flex-direction: column;
-  justify-content:space-evenly; 
-  width: 100%
-  height: 385px;
- }
-
 
   .Logo {
     display: flex;
@@ -486,5 +528,4 @@ p {
     align-items: flex-start;
     text-align: left;
   }
-
 }
