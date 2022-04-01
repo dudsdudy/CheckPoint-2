@@ -431,12 +431,14 @@ p {
   }
 
   footer {
+    background-color: #171717;
     margin-top: 50%;
     align-self: center;
     width: 100vw;
   }
 
   .alunos {
+    margin-top: -10%;
     margin-left: -10%;
     width: 30vw;
     display: flex;
@@ -452,10 +454,6 @@ p {
   .aluno {
     text-align: left;
     align-items: flex-start;
-  }
-
-  footer p {
-    margin-top: 10%;
   }
 
   #tiago {
