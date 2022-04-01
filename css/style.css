@@ -10,8 +10,20 @@
   font-family: "Roboto", sans-serif;
 }
 
+#home{
+  color:red;
+}
+
+.imglogo{
+  border-radius: 50%;
+  width: 4%;
+}
+
 body {
-  width: 100vw;
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-content: center;
 }
 
 .logobanner {
@@ -51,8 +63,9 @@ a {
 a:visited {
   color: var(--cor-menu);
 }
+/*
 
-a:hover {
+.nav a:hover {
   color: #000000;
   border-bottom: 1px solid red;
 }
@@ -83,10 +96,10 @@ header {
   align-items: center;
   height: 10vh;
 }
-
+*/
 .Parallax {
   background-image: url(../img/banner.jpg);
-  width: 100vw;
+  width: 100%;
 }
 
 .banner {
@@ -124,12 +137,29 @@ header {
   text-decoration: none;
 }
 
+.fundo input:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  color:#ffb889;
+}
+
 .butindex {
+  margin-bottom: 5%;
   width: 15vw;
   height: 5vh;
   background-color: brown;
   border-radius: 10px;
   color: white;
+}
+
+.fundo {
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  border-radius: 15px;
+  background-color: #d3d0d0;
+  width: 25vw;
+  height: 271.44px;
 }
 
 .Logo {
@@ -159,16 +189,63 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
+  margin-top: 10%;
   width: 100%;
 }
 
 
 
-.Cards img {
+#img1{
   width: 25vw;
   height: 30vh;
-  top: 104%;
-  left: 10.7%;
+  top: 130%;
+  left: 10.1%;
+  position: absolute;
+  z-index: -1;
+}
+
+#img2{
+  width: 25vw;
+  height: 30vh;
+  top: 130%;
+  left: 37.4%;
+  position: absolute;
+  z-index: -1;
+}
+
+#img3{
+  width: 25vw;
+  height: 30vh;
+  top: 130%;
+  left: 64.6%;
+  position: absolute;
+  z-index: -1;
+}
+
+#img4{
+  width: 25vw;
+  height: 30vh;
+  top: 218%;
+  left: 10.1%;
+  position: absolute;
+  z-index: -1;
+}
+
+#img5{
+  width: 25vw;
+  height: 30vh;
+  top: 218%;
+  left:37.4%;
+  ;
+  position: absolute;
+  z-index: -1;
+}
+
+#img6{
+  width: 25vw;
+  height: 30vh;
+  top: 218%;
+  left: 64.6%;
   position: absolute;
   z-index: -1;
 }
@@ -180,18 +257,11 @@ h1 {
   height: 511.14px;
 }
 
-.fundo {
-  border-radius: 15px;
-  background-color: #d3d0d0;
-  width: 25vw;
-  height: 271.44px;
-}
-
 .MainContainer {
   perspective: 1px;
   transform-style: preserve-3d;
   height: 90vh;
-  width: 100vw;
+  width: 89vw;
 }
 
 .Parallax {
@@ -222,6 +292,7 @@ footer {
 }
 
 footer {
+  width: 100%;
   padding: 50px;
   color: white;
   text-align: center;
@@ -286,7 +357,7 @@ p {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-  }
+  }/*
   header {
     display: flex;
     flex-direction: column;
@@ -294,7 +365,7 @@ p {
     padding: 30px;
     width: 100%;
     height: 50%;
-  }
+  }*/
 
   .Logo {
     display: flex;
