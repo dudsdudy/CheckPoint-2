@@ -189,7 +189,7 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-  margin-top: 10%;
+  margin-bottom: 20%;
   width: 100%;
 }
 
@@ -198,44 +198,63 @@ h1 {
 #img1{
   background-image: url('../img/card1.jpeg');
   width: 25vw;
-  height: 30vh;
+  /* height: 30vh; */
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
 }
 
 #img2{
   background-image: url('../img/card2.jpeg');
   width: 25vw;
-  height: 30vh;
+  /* height: 30vh; */
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
 }
 
 #img3{
   background-image: url('../img/card3.jpeg');
   width: 25vw;
-  height: 30vh;
+  /* height: 30vh; */
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
 }
 
 #img4{
   background-image: url('../img/card4.jpeg');
   width: 25vw;
-  height: 30vh;
+  /* height: 30vh; */
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
 }
 
 #img5{
   background-image: url('../img/card5.jpeg');
   width: 25vw;
-  height: 30vh;
+  /* height: 30vh; */
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
 }
 
 #img6{
   background-image: url('../img/card6.jpeg');
   width: 25vw;
-  height: 30vh;
+  /* height: 30vh; */
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+
 }
 
 .Cards {
   text-align: center;
   margin-top: 5%;
   width: 25vw;
-  height: 511.14px;
+  height: 700px;
 }
 
 .MainContainer {
