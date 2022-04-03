@@ -194,7 +194,7 @@ h1 {
   width: 100%;
 }
 
-.container__basquete {
+.container__detalhes {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -380,7 +380,7 @@ p {
   margin-top: 5%;
 }
 
-.container__basquete p {
+.container__detalhes p {
   color: #000000;
 }
 
