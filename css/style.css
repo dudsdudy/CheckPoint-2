@@ -20,9 +20,9 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  /* flex-direction: column;
+  justify-content: center; */
   align-content: center;
 }
 
@@ -106,7 +106,7 @@ header {
   height: 90vh;
   width: 100vw;
   display: flex;
-  /* justify-content: center; */
+  margin-left: 1.1%;
   align-items: center;
 }
 
@@ -208,7 +208,7 @@ h1 {
 
 
 #img1 {
-  background-image: url("../img/card1.jpeg");
+  background-image: url("/img/card1.jpeg");
   width: 25vw;
   height: 100vh;
   background-repeat: no-repeat;
@@ -280,20 +280,13 @@ h1 {
   text-align: center;
   margin-top: 5%;
   width: 25vw;
-  height: 1000px;
+  height: 100px;
 }
 
 
 .textop{
   color: #000000;
-  
 }
-
-
-
-
-
-
 
 
 .MainContainer {
@@ -316,6 +309,7 @@ h1 {
 }
 
 .Content {
+  margin-left: 10%;
   display: flex;
   position: relative;
   z-index: 1;
@@ -326,7 +320,7 @@ h1 {
 footer {
   align-self: center;
   width: 100vw;
-  height: 364px;
+  height: 380px;
   background: var(--cor-footer);
 }
 
@@ -491,9 +485,10 @@ span {
   }
 
   .banner {
+    margin-left: 0;
     width: 100%;
     display: block;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
   }
 
@@ -542,7 +537,7 @@ span {
   }
 
   .alunos {
-    margin-top: -10%;
+    margin-top: -17%;
     margin-left: -10%;
     width: 30vw;
     display: flex;
@@ -563,5 +558,9 @@ span {
   #tiago {
     align-items: flex-start;
     text-align: left;
+  }
+  #icon {
+    padding: 2%;
+    width: 20%;
   }
 }
