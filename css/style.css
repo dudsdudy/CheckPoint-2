@@ -223,7 +223,7 @@ h1 {
 }
 
 #img2 {
-  background-image: url("../img/card2.jpeg");
+  background-image: url("../img/boxing.jpg");
   width: 25vw;
   height: 100vh;
   background-repeat: no-repeat;
@@ -234,7 +234,7 @@ h1 {
 }
 
 #img3 {
-  background-image: url("../img/card3.jpg");
+  background-image: url("../img/futebol.png");
   width: 25vw;
   height: 100vh;
   background-repeat: no-repeat;
@@ -245,7 +245,7 @@ h1 {
 }
 
 #img4 {
-  background-image: url("../img/card4.jpeg");
+  background-image: url("../img/jj.jpg");
   width: 25vw;
   height: 100vh;
   background-repeat: no-repeat;
@@ -256,7 +256,7 @@ h1 {
 }
 
 #img5 {
-  background-image: url("../img/card5.jpeg");
+  background-image: url("../img/natação.jpg");
   width: 25vw;
   height: 100vh;
   background-repeat: no-repeat;
@@ -267,7 +267,7 @@ h1 {
 }
 
 #img6 {
-  background-image: url("../img/card6.jpeg");
+  background-image: url("../img/Vôlei.jpg");
   width: 25vw;
   height: 100vh;
   background-repeat: no-repeat;
@@ -324,7 +324,7 @@ h1 {
 footer {
   align-self: center;
   width: 100vw;
-  height: 400px;
+  height: 389px;
   background: var(--cor-footer);
 }
 
@@ -353,8 +353,9 @@ footer {
 }
 
 #everton {
+  margin-top: -1.5%;
   align-items: flex-start;
-  text-align: justify;
+  text-align: start;
 }
 
 .resp {
@@ -457,7 +458,7 @@ span {
 
   .fundo {
     width: 94.2vw;
-    margin-top: 63%;
+    margin-top: 23%;
   }
 
   .container {
@@ -546,6 +547,10 @@ span {
     align-self: center;
     margin-top: -20%;
   }
+
+.footer2{
+  margin-top: 1%;
+}
 
   footer {
     background-color: #171717;
