@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#desc{
+    text-align: justify;
+    width: 80vw;
+}
+
+@media (max-width:421px){
+
+    iframe{
+        width: 200%;
+    }
+
+}
