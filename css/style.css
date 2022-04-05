@@ -324,7 +324,7 @@ h1 {
 footer {
   align-self: center;
   width: 100vw;
-  height: 380px;
+  height: 400px;
   background: var(--cor-footer);
 }
 
@@ -549,7 +549,7 @@ span {
 
   footer {
     background-color: #171717;
-    margin-top: 50%;
+    margin-top: 60%;
     align-self: center;
     width: 100vw;
   }
