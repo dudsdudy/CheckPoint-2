@@ -106,18 +106,25 @@ a:visited {
   text-decoration: none;
 }
 
-.fundo input:hover {
+.fundo a:hover {
   cursor: pointer;
   transform: scale(1.1);
   color: #ffb889;
 }
 
 .butindex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 10%;
   width: 15vw;
   height: 5vh;
   background-color: brown;
   border-radius: 10px;
+  color: white;
+}
+
+.fundo a {
   color: white;
 }
 
