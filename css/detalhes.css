@@ -28,6 +28,7 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-bottom: 30%;
   }
   .titulo {
     font-weight: 590;
